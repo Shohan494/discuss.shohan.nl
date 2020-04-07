@@ -6,8 +6,8 @@
     'host' => 'localhost',
     'port' => 3306,
     'database' => 'discusswithshohan',
-    'username' => 'discussshohan',
-    'password' => 'Of3e2!r5',
+    'username' => 'root',
+    'password' => '',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
     'prefix' => '',
@@ -15,7 +15,8 @@
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
-  'url' => 'http://discuss.shohan.nl',
+  //'url' => 'http://discuss.shohan.nl/public',
+  'url' => 'http://localhost/SHOHAN-NL-SOURCE/DISCUSS.SHOHAN.NL/public/',
   'paths' => 
   array (
     'api' => 'api',
