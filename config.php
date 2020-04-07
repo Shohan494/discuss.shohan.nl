@@ -15,7 +15,7 @@
     'engine' => 'InnoDB',
     'prefix_indexes' => true,
   ),
-  'url' => 'http://discuss.shohan.nl/public',
+  'url' => 'http://discuss.shohan.nl',
   'paths' => 
   array (
     'api' => 'api',
