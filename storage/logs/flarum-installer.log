@@ -1,0 +1,8 @@
+[2020-04-07 11:23:14] Flarum Installer.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "cache" namespace. in C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\vendor\symfony\console\Application.php:597
+Stack trace:
+#0 C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\vendor\symfony\console\Application.php(650): Symfony\Component\Console\Application->findNamespace('cache')
+#1 C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\vendor\symfony\console\Application.php(235): Symfony\Component\Console\Application->find('cache:clear')
+#2 C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\vendor\symfony\console\Application.php(147): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\vendor\flarum\core\src\Console\Server.php(44): Symfony\Component\Console\Application->run()
+#4 C:\xamppnew\htdocs\SHOHAN-NL-SOURCE\DISCUSS.SHOHAN.NL\flarum(24): Flarum\Console\Server->listen()
+#5 {main}  
